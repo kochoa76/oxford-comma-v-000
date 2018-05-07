@@ -8,7 +8,7 @@ return array.join(" and ")
 end
 
 if array.length== 3
-return array[0..-2].join(" ," ", ") + " and " + array[-1]
+return array[0].join(" ,") + array[-2].join(" ,") + " and " + array[-1]
 end
 
 end
