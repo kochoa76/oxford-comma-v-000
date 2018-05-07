@@ -12,3 +12,4 @@ return array.to_s.[0..-2].join(",") + " and " + array[-1]
 end
 
 end
+end
